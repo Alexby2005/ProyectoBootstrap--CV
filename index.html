@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tetra1">Datos Personales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tetra2">Descripcion</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Habilidades
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#tetra3">Programacion</a></li>
+              <li><a class="dropdown-item" href="#tetra3">Base de Datos</a></li>
+              <li><a class="dropdown-item" href="#tetra3">Diseño Gafrico</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#tetra4">Experiencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tetra5">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tetra6">Contacto</a>
+            </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <style>
+    @media (max-width: 300px) {
+      .img-fluid{
+        display: none !important;
+      }
+    }
+  </style>
+
+  
+<body>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/programa1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>DISEÑAR ANTES DE CODIFICAR</h5>
+          <p>Antes de sumergirte en la escritura de código, tómate el tiempo necesario para diseñar y planificar. Un buen diseño puede ahorrar horas de trabajo posterior, reducir errores y mejorar la escalabilidad. Utiliza herramientas como diagramas de flujo, pseudocódigo o cualquier método que te ayude a visualizar la estructura y la lógica de tu programa antes de empezar a programar.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/programa20.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>MANTEN TU CODIGO LEGIBLE Y MODIFICABLE</h5>
+          <p>La legibilidad del código es fundamental. Asegúrate de que tu código sea comprensible para otros desarrolladores y para ti mismo en el futuro. Utiliza nombres de variables y funciones descriptivos, divide el código en funciones lógicas y documenta tu código de manera clara. Además, sigue los principios SOLID y evita duplicar código. Un código limpio es más fácil de mantener y actualizar.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/programa3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>APRENDE A APRENDER Y MANTENER ACTUALIZADO</h5>
+          <p>La tecnología avanza rápidamente en el campo de la programación. Aprender a aprender es una habilidad crucial. Mantente al tanto de las nuevas tecnologías, lenguajes y prácticas de desarrollo. Participa en comunidades en línea, lee blogs, realiza cursos y asiste a conferencias. La capacidad de adaptarse y aprender continuamente te hará más eficiente y valioso como desarrollador.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container marketing">
+
+    <hr class="featurette-divider">
+    <div id="tetra1">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">DATOS PERSONALES</h2>
+        <br>
+        <div class="col-md-8">
+            <p><strong>Nombre Clave:</strong> Alex</p>
+            <p><strong>DNI:</strong> 74502410</p>
+            <p><strong>Direccion:</strong> Calle espinar Urinsaya</p>
+            <p><strong>Especialidad</strong> Programador</p>
+            <p><strong>Dirección:</strong> Espinar, Perú</p>  
+            <p><strong>Teléfono:</strong> 900050432</p>
+            <p><strong>Gmail:</strong> alexqk18@gmail.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/alex</p>
+            <!-- Puedes agregar más información según tus necesidades -->
+          </div>
+      </div>
+    
+      <div class="col-md-5">
+        <img src="imagenes/foto.jfif" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </div>
+<div id="tetra2">
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">DESCRIPCION</h2>
+        <p class="fw-normal">
+            Soy un programador altamente motivado y experimentado, con un historial probado en el desarrollo de software de alta calidad y soluciones informáticas innovadoras. Mi enfoque se centra en la creación de aplicaciones eficientes y efectivas, con un compromiso constante con la mejora continua y la resolución creativa de problemas.
+        </p>
+        <p class="fw-normal">
+            Mi experiencia incluye el desarrollo y mantenimiento de aplicaciones web utilizando una variedad de lenguajes de programación, como Java, Python y JavaScript. He participado activamente en la resolución de problemas y la optimización de aplicaciones existentes, trabajando en estrecha colaboración con analistas de sistemas y diseñadores para comprender y traducir los requisitos del usuario en soluciones efectivas.
+        </p>
+        <p class="fw-normal">
+          Mi experiencia incluye el desarrollo y mantenimiento de aplicaciones web utilizando una variedad de lenguajes de programación, como Java, Python y JavaScript. Él participa activamente en la resolución de problemas y la optimización de aplicaciones existentes, trabajando en estrecha colaboración con analistas de sistemas y diseñadores para comprender y traducir los requisitos del usuario en soluciones efectivas.
+      </p>
+      </div>
+
+      <div class="col-md-5 order-md-1">
+        <img src="imagenes/m7.jpg" class="img-fluid" alt="...">
+      </div>
+    </div>
+    <br>
+  </div>  
+  <div id="tetra3">  
+    <hr class="featurette-divider">  
+    <div class="row">
+      <h2 class="fw-normal">HABILIDADES</h2>
+      <br>
+      <div class="col-lg-4">
+        <img src="imagenes/im1.jpg" class="img-fluid" alt="...">
+        <h2 class="fw-normal">PROGRAMACION</h2>
+        <p>En la sección de programación de tu portafolio, enfócate en mostrar una combinación de habilidades de programación, lenguajes que dominas y proyectos relevantes que hayas completado. Utiliza un enfoque orientado a resultados, destacando cómo tus contribuciones han tenido un impacto en el éxito de los proyectos. Incluye ejemplos de código para demostrar tu habilidad técnica y muestra proyectos diversos para exhibir tu versatilidad.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="imagenes/im2.jpg" class="img-fluid" alt="...">
+        <h2 class="fw-normal">BASE DE DATOS</h2>
+        <p>En la sección de bases de datos, resalta tu experiencia con sistemas de gestión de bases de datos (DBMS) específicos, como MySQL, PostgreSQL o MongoDB. Detalla proyectos donde hayas diseñado, implementado o optimizado bases de datos. Puedes incluir diagramas de modelos de datos para demostrar tu habilidad en diseño. Asegúrate de indicar si tienes experiencia en optimización de consultas, normalización y mantenimiento de bases de datos.</p>
+
+      </div>
+      <div class="col-lg-4">
+        <img src="imagenes/im3.jpg" class="img-fluid" alt="...">
+        <h2 class="fw-normal">DISEÑO GRAFICO</h2>
+        <p>Para el diseño gráfico, muestra tu creatividad y habilidades técnicas. Incluye ejemplos de trabajos anteriores, como logotipos, banners, interfaces de usuario y cualquier diseño impreso si es relevante. Detalla las herramientas que utilizas, como Adobe Creative Suite, Sketch, Figma, etc. También puedes incluir proyectos donde tu diseño contribuyó al éxito de una campaña o proyecto específico.</p>
+      </div>
+    <br>
+  </div>
+  <div id="tetra4"> 
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      
+        <h1 class="featurette-heading fw-normal lh-1">EXPERIENCIA</h1>
+     
+        <h3 class="featurette-heading fw-normal lh-1">C++</h3>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info" style="width: 78%">78%</div>
+          </div>
+        <br>
+        <h3 class="featurette-heading fw-normal lh-1">MySQL</h3>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 25%">25%</div>
+          </div>
+        <br>
+        <h3 class="featurette-heading fw-normal lh-1">Python</h3>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 50%">50%</div>
+          </div>
+        <br>
+        <h3 class="featurette-heading fw-normal lh-1">Figma</h3>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+          </div>
+        <br>     
+    </div>
+  </div>
+  <div id="tetra5">
+    <hr class="featurette-divider">
+
+    <div id="CPU">
+      <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+           <h2 class="fw-normal">TRABAJOS</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/10782799_19199227.jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">          
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/10783862_19197415 (1).jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/11668491_20943599.jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/11669327_20945909.jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/11669384_20945418.jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        </div>
+                      </div>
+                    </div>  
+              </div>
+              <div class="col">
+                  <div class="card shadow-sm">
+                      <img src="imagenes/20943991.jpg" class="" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+   <div id="tetra6">  
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+  <div class="container mt-4 contact-form-section">
+    <h2 class="mb-4">Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-danger">Enviar Mensaje</button>
+    </form>
+  </div>   
+  <!-- FOOTER -->
+
+  <footer class="container">
+    <br>
+    <p class="float-end"><a href="#">Ir menu Inicio</a></p>
+    <p>&copy;alex derechos reservados&middot; <a href="#">Privacidad</a> &middot; <a href="#">terminos</a></p>
+  </footer>
+</div> 
+</main>
+
+</body>
+</html>
